@@ -6,8 +6,8 @@ def turn(board)
     turn(board)
   else
     move(board, index, char = "X")
+    display_board(board)
   end
-  display_board(board)
 end
 
 
